@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: alertmanager
-        image: quay.io/prometheus/alertmanager:v0.7.1
+        image: registry.cn-hangzhou.aliyuncs.com/zhg_docker_ali_r/alertmanager:v0.7.1
         args:
           - '-config.file=/etc/alertmanager/config.yml'
           - '-storage.path=/alertmanager'
